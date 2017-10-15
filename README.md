@@ -1,6 +1,26 @@
-frontend-nanodegree-arcade-game
-===============================
+# Classic Arcade Game Clone
 
-Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
+## Project Overview
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+This project is designed to put the skills we learned in Udacity's Object Oriented JavaScript course to practice. We were provided with both visual assets and a game loop engine. It was our task to build out this Frogger-based game using prototypal inheritance and delegation.
+
+## Getting Started
+
+Clone the following repository:
+
+```
+git clone https://github.com/kklumpp13/udacity-fed-arcade-clone.git
+```
+
+Simply open the index.html file in your browser to begin playing.
+
+## How to Play
+Use the keyboard arrows to navigate across the road. If you make it to the river without running into any bugs, you'll earn a point and get a chance to try again. If you run into a bug, you'll lose a point and have to start over.
+
+
+### Potential Improvements
+* Choose player before starting the game
+* Cap the number of times you can hit a bug
+* Collect jewels for additional points
+* Create levels of difficulty
+* Improve flexibility of code by removing set width and length values
